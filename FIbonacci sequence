@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class U4_L1_Activity_Two{
+  public static void main(String[] args){
+    
+        
+    int f1 = 1;
+    int f2 = 1;
+    int fF;
+    int a=0;
+    System.out.print(f1 + " ");
+    System.out.print(f1 + " ");
+    for (int c =1;c <18 /* can always change the number of numbers from 18 to something else*/ ; c++){
+      fF= f1+f2;
+      System.out.print(fF + " ");
+      f2 = f1;
+      f1 = fF;
+  }
+  }
+}
